@@ -1,0 +1,2353 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c063dd43-1ab5-4d07-bc7a-bafa5a24c28b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "d0570c9a-e7e2-4976-af23-e3d5c9363da7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'dog' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/2905124123.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mdog\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'dog' is not defined"
+     ]
+    }
+   ],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "1ae5cb87-6d20-4d1f-b2b4-dc55a4c02577",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = None"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "af673cf6-3642-45a1-97cd-e603dcb376bd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y = [\"dog\" if x is not None else \"cat\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "1e0223b0-dfed-4d8e-bca8-8bcbc40f30df",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "Missing parentheses in call to 'print'. Did you mean print(y)? (Temp/ipykernel_46824/2709614062.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"C:\\Users\\foxki\\AppData\\Local\\Temp/ipykernel_46824/2709614062.py\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    print y\u001b[0m\n\u001b[1;37m          ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m Missing parentheses in call to 'print'. Did you mean print(y)?\n"
+     ]
+    }
+   ],
+   "source": [
+    "print y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "bb3cd684-aca2-4011-be3d-888596c7afcf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['cat']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "73308075-1db1-4b72-8aeb-1454691ca66f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "f7fe9ddf-d47e-448b-b78e-5077d18f3822",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (Temp/ipykernel_46824/2253899514.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"C:\\Users\\foxki\\AppData\\Local\\Temp/ipykernel_46824/2253899514.py\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    y = [\"dog\" if x == 1 elif x ==2 \"cow\" else \"cat\"]\u001b[0m\n\u001b[1;37m                         ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "y = [\"dog\" if x == 1 elif x ==2 \"cow\" else \"cat\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "12a9b0aa-bbd9-4fc1-88b7-01b32c009ce3",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (Temp/ipykernel_46824/810520795.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"C:\\Users\\foxki\\AppData\\Local\\Temp/ipykernel_46824/810520795.py\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    y = [\"dog\" if x==1 elif x==2 \"cow\" else \"cat\"]\u001b[0m\n\u001b[1;37m                       ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "y = [\"dog\" if x==1 elif x==2 \"cow\" else \"cat\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "26d6154a-796d-4b27-b15a-44bb6cebe067",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "total=0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "69e06862-cdc0-4203-b27c-b3b355632dc7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for item in [1, 3, 5]:\n",
+    "    total=total+item"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "09ec2e0f-7f69-4a21-ba50-64212eb860e8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(item)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "b9ac8d33-9ef5-47e4-a94b-968750d0cbff",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=[1, 2, 3, 4, 5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "a1b7d2cd-8892-4212-bc88-d6fb098552a3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "total=0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "967359ae-5572-4122-a702-ea9db389de12",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "while x:\n",
+    "    total=total+1\n",
+    "    if len(x) > 3:\n",
+    "        x.pop()\n",
+    "    else:\n",
+    "        break"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "af66b747-1679-45eb-ba97-c6f7d4e0e11d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(total)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "08a703d6-fb13-4592-9df2-49e4c2d58e29",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'bool' object is not iterable",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/972842544.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mall\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;32mTrue\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: 'bool' object is not iterable"
+     ]
+    }
+   ],
+   "source": [
+    "all(True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "90d38996-59c1-41b6-90ab-83f92b143dbc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "range(0, 10)"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "range(10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "8d6c248a-a91f-4e4e-9a01-3cb316e82897",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 2, 4, 6, 8]"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "[i for i in range(10) if i%2==0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "21b95648-7553-493b-93e7-8a432c00124c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<generator object <genexpr> at 0x000001A8E55EC040>"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(i for i in range(10) if i%2==0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "279bff35-d527-4882-802a-93abfc2c2844",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 1, 2, 9, 4, 25, 6, 49, 8, 81]"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "[(i if i%2==0 else i**2) for i in range(10)]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "8ebe697e-4d7a-4beb-b9d0-936ca8ea0eee",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndentationError",
+     "evalue": "expected an indented block (Temp/ipykernel_46824/3337307433.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"C:\\Users\\foxki\\AppData\\Local\\Temp/ipykernel_46824/3337307433.py\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    def f(x):\u001b[0m\n\u001b[1;37m             ^\u001b[0m\n\u001b[1;31mIndentationError\u001b[0m\u001b[1;31m:\u001b[0m expected an indented block\n"
+     ]
+    }
+   ],
+   "source": [
+    "def f(x):"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "2bc9ef8a-b2b1-4334-8fce-21aa26344291",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndentationError",
+     "evalue": "expected an indented block (Temp/ipykernel_46824/4014757779.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"C:\\Users\\foxki\\AppData\\Local\\Temp/ipykernel_46824/4014757779.py\"\u001b[1;36m, line \u001b[1;32m2\u001b[0m\n\u001b[1;33m    {\u001b[0m\n\u001b[1;37m    ^\u001b[0m\n\u001b[1;31mIndentationError\u001b[0m\u001b[1;31m:\u001b[0m expected an indented block\n"
+     ]
+    }
+   ],
+   "source": [
+    "def f(x):\n",
+    "{\n",
+    "    return x+1\n",
+    "}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "bea80ec6-be83-4577-b33f-4a5c6d0914e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (Temp/ipykernel_46824/3187866537.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"C:\\Users\\foxki\\AppData\\Local\\Temp/ipykernel_46824/3187866537.py\"\u001b[1;36m, line \u001b[1;32m2\u001b[0m\n\u001b[1;33m    {return x+1]\u001b[0m\n\u001b[1;37m     ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "def f(x):\n",
+    "    {return x+1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "113f411a-d7f8-4150-9679-b81f5e284b02",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def f(a, b, *c, d):\n",
+    "    return a+b+len(c)+d"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "2a06a241-ed7c-43c5-a250-bc1bc05fd461",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "f() missing 1 required keyword-only argument: 'd'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/187368274.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mf\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m3\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m4\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: f() missing 1 required keyword-only argument: 'd'"
+     ]
+    }
+   ],
+   "source": [
+    "f(1, 2, 3, 4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "f58f9b68-af67-4626-88a4-2a4f52798b51",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "f() missing 1 required keyword-only argument: 'd'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3778990259.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mf\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m(\u001b[0m\u001b[1;36m3\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m4\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m5\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: f() missing 1 required keyword-only argument: 'd'"
+     ]
+    }
+   ],
+   "source": [
+    "f(1, 2, (3, 4), 5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "0d51e978-a3d7-448c-bf9f-375662ad96eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "f(1, 2, (3,4), d=5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "7169b911-7c66-4600-9e10-7ff1b73c7ade",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "f(1, 2, 3, 4, d=5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "490ef232-6ba1-46a7-bbd4-ef4624730302",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "401b995b-5e9d-4821-abbf-813ca4472f3e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "2b0b45a9-2864-4cb3-86dc-38cab15c1bf0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def f(x):\n",
+    "    return y+x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "3fc98c6a-2ab7-42b1-9e08-577665d70f51",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "z=(x, f(3))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "28ae8c46-cdee-4631-9b03-e4105601e9c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(1, 5)\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "117a0e6b-996e-4ff8-aac3-84c162c948c3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'apple': 'fruit', 'carrot': 'vegetable'}"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "{\"apple\":\"fruit\", \"carrot\":\"vegetable\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "49202b97-d8a4-4a5e-9ca0-aa892e90c33b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{('apple', 'fruit'), ('carrot', 'vegetable')}"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "{(\"apple\", \"fruit\"), (\"carrot\", \"vegetable\")}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "2891913f-d6ef-4076-baed-25934f42bb19",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'apple': 'fruit', 'carrot': 'vegetable'}"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dict([(\"apple\", \"fruit\"), (\"carrot\", \"vegetable\")])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "b308ab3e-decb-4f74-bede-de83c943734b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'apple': 'fruit', 'carrot': 'vegetable'}"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dict(((\"apple\", \"fruit\"), (\"carrot\", \"vegetable\")))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "2521335f-4fb0-47a9-8d3e-3ef9b5280969",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'apple': 'fruit', 'carrot': 'vegetable'}"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "{k:v for k,v in [(\"apple\", \"fruit\"), (\"carrot\", \"vegetable\")]}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "a0ec3731-0e8f-4ded-9331-960286564950",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "dict expected at most 1 argument, got 2",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/2730853433.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mdict\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;34m\"apple\"\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;34m\"fruit\"\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m[\u001b[0m\u001b[1;34m\"carrot\"\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;34m\"vegetable\"\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: dict expected at most 1 argument, got 2"
+     ]
+    }
+   ],
+   "source": [
+    "dict([\"apple\", \"fruit\"], [\"carrot\", \"vegetable\"])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "1284d0bf-f3d5-420d-bc21-580cc6940cde",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'apple': 'carrot', 'fruit': 'vegetable'}"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "{k:v for k,v in zip([\"apple\", \"fruit\"], [\"carrot\", \"vegetable\"])}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "94c1e6aa-9294-488c-94b3-e654db2cebbc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'apple': 'fruit', 'Carrot': 'vegetable'}"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "{k:v for k,v in zip([\"apple\", \"Carrot\"], [\"fruit\", \"vegetable\"])}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "11747803-8f7b-4018-b547-7483aa933871",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "example_dict={\"key1\":\"value1\", \"key2\":\"value2\", \"key3\":\"value3\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "211240d0-10c5-4b61-bf68-76420fb2ae71",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'key4' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3635953627.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mkey4\u001b[0m\u001b[1;33m)\u001b[0m \u001b[1;32min\u001b[0m \u001b[0mexample_dict\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'key4' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "print(key4) in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "66b22437-cbbb-4ec3-b529-6d43f081bf04",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'key4' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3557977571.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mkey4\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'key4' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "print(key4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "63e68ff6-2791-42ad-a419-462557162cc1",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'value1' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3973113544.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mvalue1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'value1' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "print(value1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "23fd008e-d800-46a5-9365-21a6f5a55273",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "value1\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"value1\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "79e85cfe-804c-499d-97ee-bc3e4bb80f72",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "value1\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "print(\"value1\") in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "20bd15e6-96bf-40ad-86ec-d19d31dcb2b2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "key4\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 51,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "print(\"key4\") in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "964c4e52-b194-4ba6-82f3-17d2a5a540b0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"key4\" in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "dc0d0ebd-3b80-4728-b3fb-af9877f435b3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 53,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"value1\" in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "62be8ab5-e4f9-4c10-8970-a25a32c7911d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"key1\" in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "7c2f7202-4fde-47ad-b85d-855b2d1dd276",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(\"key2\", \"value2\") in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "5a1ca185-7249-4d4f-a52d-01401d93b65a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"key1\" in example_dict.values()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "b11a7150-88cc-4f5b-bfaf-c8991f83fb5a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"key1\" in example_dict.items()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "c538f63e-f666-4d19-a3b8-dc12653c5927",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"key1\" in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "2c4e673b-9844-42e3-83c3-315a7a1658f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"value1\" in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "9a9700fc-c9b2-49a6-b7ab-51d14718f00a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"value1\" in example_dict.values()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "e24062f4-dfd0-405e-aa1c-1dab1aa7034a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"value1\" in example_dict.items()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "a83c57e1-0fc0-443d-8f99-37b3b0974bf2",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (Temp/ipykernel_46824/1625559242.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"C:\\Users\\foxki\\AppData\\Local\\Temp/ipykernel_46824/1625559242.py\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    (\"key1\":\"value1\") in example_dict\u001b[0m\n\u001b[1;37m           ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "(\"key1\":\"value1\") in example_dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "f1a6c4d9-0a50-47aa-9dd0-5aeb6dbabce9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(\"key1\", \"value1\") in example_dict.values()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "e5ff8d4a-ee02-4072-9bd8-099f3e5d10e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 64,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(\"key1\", \"value1\") in example_dict.items()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "e6b247e6-34fd-4d10-bf24-24ae91e962fa",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'np' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3145970668.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0marray\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m3\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m4\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'np' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "x = np.array([1, 2, 3, 4])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "88bf8e74-cf85-4988-b024-c015c2545ed7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'np' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3323605286.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0marray\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m1\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m3\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m4\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m      2\u001b[0m \u001b[0my\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0marray\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m[\u001b[0m \u001b[1;33m[\u001b[0m\u001b[1;36m5\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;36m6\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m[\u001b[0m\u001b[1;36m7\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;36m8\u001b[0m\u001b[1;33m]\u001b[0m \u001b[1;33m]\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'np' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "x = np.array([0, 1, 2, 3, 4])\n",
+    "y = np.array([ [5,6], [7,8] ])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "aa419d63-7591-4d09-80d6-2a7087fad2e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'int' object has no attribute 'reshape'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/2204554418.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mreshape\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m \u001b[1;33m+\u001b[0m \u001b[0my\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m: 'int' object has no attribute 'reshape'"
+     ]
+    }
+   ],
+   "source": [
+    "x.reshape(2,2) + y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "850a2cb1-a3b7-4d4c-8e31-3d3884c26a54",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "aad68e79-122a-4b05-8aac-907ab06d3c64",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = np.array([0, 1, 2, 3, 4])\n",
+    "y = np.array([ [5,6], [7,8] ])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "f290242c-7039-4f43-960e-39a3ea952c7c",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "cannot reshape array of size 5 into shape (2,2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/2204554418.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mreshape\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m \u001b[1;33m+\u001b[0m \u001b[0my\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m: cannot reshape array of size 5 into shape (2,2)"
+     ]
+    }
+   ],
+   "source": [
+    "x.reshape(2,2) + y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "2fbe0d1f-1f83-4ba2-8bd6-726f19d15537",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "operands could not be broadcast together with shapes (5,) (2,2) ",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/147568770.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[1;33m(\u001b[0m\u001b[0mx\u001b[0m\u001b[1;33m+\u001b[0m\u001b[0my\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mreshape\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m: operands could not be broadcast together with shapes (5,) (2,2) "
+     ]
+    }
+   ],
+   "source": [
+    "(x+y).reshape(2,2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "da44d37b-b060-4c57-be28-f5d125e17a49",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "operands could not be broadcast together with shapes (5,) (4,) ",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/1446075060.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m+\u001b[0m\u001b[0my\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mflatten\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m: operands could not be broadcast together with shapes (5,) (4,) "
+     ]
+    }
+   ],
+   "source": [
+    "x+y.flatten()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "e831dc36-8981-4277-82f6-ee04f53ff5f4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "y = np.array([ [5,6], [7,8] ])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "df9fa08a-b2e6-4da6-833b-b0bf4cde2892",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([[ 6,  8],\n",
+       "       [10, 12]])"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x.reshape(2,2) + y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "39cba0c5-8fc9-499b-a5e4-3903e4118216",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "operands could not be broadcast together with shapes (4,) (2,2) ",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/147568770.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[1;33m(\u001b[0m\u001b[0mx\u001b[0m\u001b[1;33m+\u001b[0m\u001b[0my\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mreshape\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m: operands could not be broadcast together with shapes (4,) (2,2) "
+     ]
+    }
+   ],
+   "source": [
+    "(x+y).reshape(2,2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "id": "e6a00f65-39b7-4f19-8997-a0bb112cd527",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x[1::2] = 0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "id": "92d3b51c-e9fb-475a-a809-64d6827cd124",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0 0 0 0]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "0d1803a9-a14a-449f-8c2f-a88205081a97",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = np.array([1, 2, 3, 4])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "id": "00c8148c-c80a-4c35-be39-682683d4b7df",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x[:]=0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "id": "1058817f-86f1-4412-b752-87cddf8916f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0 0 0 0]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "107e5631-9d7e-46f3-a266-8a4dd85f3604",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = np.array([1, 2, 3, 4])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 105,
+   "id": "5d3a2681-7ffd-4d5b-8c10-d13b300b1fd0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x[x%2==1] = 0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "id": "79a590a8-99d9-4f20-8f44-01f19bbbfdb7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0 2 0 4]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "id": "cb0c829e-58d8-4fe6-8440-0c9399cdfd2a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]).reshape(2, 2, 2, 2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 109,
+   "id": "3ab4be54-6a0c-4871-973f-cea208c5b563",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'numpy.ndarray' object is not callable",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3818928036.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0ma\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m0\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: 'numpy.ndarray' object is not callable"
+     ]
+    }
+   ],
+   "source": [
+    "a(2, 0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "id": "4de01e9c-848c-4635-8bcc-7a43965356b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'array' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/2372872249.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0marray\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;36m0\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'array' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "array[2,0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "id": "11721ada-d27f-4870-809f-cde54a6c7701",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 111,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[2,0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "3dccf66b-f04f-4b27-9d7a-be8511b182a0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 112,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[1,1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "id": "907bc8d0-c1c6-4a7c-903d-29c78aa075a9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 114,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[1, 0, 0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "id": "9b725fd4-c78b-4f5b-9700-2fe9d2014cf2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 115,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[0, 1, 1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 117,
+   "id": "9fd27e7a-6614-4134-a150-ae6611957201",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 117,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[0, 1, 0, 1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 118,
+   "id": "0b0287eb-2910-4722-8eef-c74fc36c7def",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "module 'numpy' has no attribute 'arrange'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/1490814541.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0marrange\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m5\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m**\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\__init__.py\u001b[0m in \u001b[0;36m__getattr__\u001b[1;34m(attr)\u001b[0m\n\u001b[0;32m    301\u001b[0m                 \u001b[1;32mreturn\u001b[0m \u001b[0mTester\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    302\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m--> 303\u001b[1;33m             raise AttributeError(\"module {!r} has no attribute \"\n\u001b[0m\u001b[0;32m    304\u001b[0m                                  \"{!r}\".format(__name__, attr))\n\u001b[0;32m    305\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mAttributeError\u001b[0m: module 'numpy' has no attribute 'arrange'"
+     ]
+    }
+   ],
+   "source": [
+    "np.arrange(5)**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "7f5c40e8-a83f-41ef-8d88-6f02f7afea0c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 0,  1,  4,  9, 16], dtype=int32)"
+      ]
+     },
+     "execution_count": 119,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "np.arange(5)**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "id": "09c23a6c-20dc-41fb-8900-85f75b0022b7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "unsupported operand type(s) for ** or pow(): 'list' and 'int'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/258461586.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[1;33m[\u001b[0m\u001b[0mi\u001b[0m \u001b[1;32mfor\u001b[0m \u001b[0mi\u001b[0m \u001b[1;32min\u001b[0m \u001b[0mrange\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m5\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m**\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: unsupported operand type(s) for ** or pow(): 'list' and 'int'"
+     ]
+    }
+   ],
+   "source": [
+    "[i for i in range(5)]**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "id": "e0b2efeb-2840-447c-858e-0048097d3492",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 1,  2,  4,  8, 16], dtype=int32)"
+      ]
+     },
+     "execution_count": 121,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "np.power(2, np.arange(5))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 122,
+   "id": "3a626fbd-18c8-43f4-bb95-358b687fad1a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 0,  1,  4,  9, 16], dtype=int32)"
+      ]
+     },
+     "execution_count": 122,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "np.power(np.arange(5), 2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 123,
+   "id": "fc493164-64f0-4f6d-9fa1-0e0c8f842f55",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 0,  1,  4,  9, 16])"
+      ]
+     },
+     "execution_count": 123,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "np.array([i**2 for i in range(5)])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "id": "33df35f2-3d40-43e1-b56d-8b022c705ed3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = (5, 6, 8, 10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
+   "id": "fd4b95d2-dd60-4a9a-9d44-c7fa029aba19",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'tuple' object has no attribute 'mean'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/161499844.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m-\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'mean'"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(-2, -1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "id": "eeb4d249-014a-4e8a-8cc9-56166eeb2fa3",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'tuple' object has no attribute 'mean'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3666320354.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'mean'"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(0, 1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "f471e88e-21b8-4b52-9e1a-7666d05f79dc",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'tuple' object has no attribute 'mean'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/2114615957.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'mean'"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(1, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "225c8749-6f7a-46ed-8359-fe8e80dce539",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "_mean_dispatcher() missing 1 required positional argument: 'a'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/81206998.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m-\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m<__array_function__ internals>\u001b[0m in \u001b[0;36mmean\u001b[1;34m(*args, **kwargs)\u001b[0m\n",
+      "\u001b[1;31mTypeError\u001b[0m: _mean_dispatcher() missing 1 required positional argument: 'a'"
+     ]
+    }
+   ],
+   "source": [
+    "np.mean(axis=(-2, -1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "67be72cc-58a5-423c-bd54-2cb105468f59",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "id": "191300d1-f361-4aee-8fcf-8c76713d7bd6",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "array() takes from 1 to 2 positional arguments but 4 were given",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3368060775.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0marray\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m5\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m6\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m8\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m10\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: array() takes from 1 to 2 positional arguments but 4 were given"
+     ]
+    }
+   ],
+   "source": [
+    "x=np.array(5, 6, 8, 10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 132,
+   "id": "c74a6fcb-8615-44da-82c1-05dfef26d21f",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "Cannot interpret '8' as a data type",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/438632870.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mfull\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m5\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m6\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m8\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m10\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\numeric.py\u001b[0m in \u001b[0;36mfull\u001b[1;34m(shape, fill_value, dtype, order, like)\u001b[0m\n\u001b[0;32m    340\u001b[0m         \u001b[0mfill_value\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0masarray\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mfill_value\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    341\u001b[0m         \u001b[0mdtype\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mfill_value\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mdtype\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m--> 342\u001b[1;33m     \u001b[0ma\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mempty\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mshape\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mdtype\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0morder\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m    343\u001b[0m     \u001b[0mmultiarray\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mcopyto\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0ma\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mfill_value\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mcasting\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;34m'unsafe'\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    344\u001b[0m     \u001b[1;32mreturn\u001b[0m \u001b[0ma\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mTypeError\u001b[0m: Cannot interpret '8' as a data type"
+     ]
+    }
+   ],
+   "source": [
+    "np.full(5, 6, 8, 10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 133,
+   "id": "620a17cd-227c-463c-b1eb-2768a5ae5063",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = np.repeat(a, 4, axis=0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 134,
+   "id": "d3216621-b8c9-41ba-8abb-b7050e62914d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unexpected EOF while parsing (Temp/ipykernel_46824/2238722522.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"C:\\Users\\foxki\\AppData\\Local\\Temp/ipykernel_46824/2238722522.py\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    a = (5, 6, 8, 10\u001b[0m\n\u001b[1;37m                    ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m unexpected EOF while parsing\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = (5, 6, 8, 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 135,
+   "id": "f7f61145-b282-49f9-80f7-b3a21a322042",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 5,  6,  8, 10])"
+      ]
+     },
+     "execution_count": 135,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "np.array([5, 6, 8, 10])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 136,
+   "id": "296764ee-3fe6-4856-a752-57609f28fd66",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'tuple' object has no attribute 'mean'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/161499844.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m-\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'mean'"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(-2, -1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 137,
+   "id": "cc25ae6f-4039-4d1a-b454-9ef0b7959c01",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'array' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/948010845.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0marray\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m-\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'array' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "array.mean(axis=(-2, -1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 138,
+   "id": "1ea3a97f-42f3-4b48-aec8-ea76d5db3eae",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "_mean_dispatcher() missing 1 required positional argument: 'a'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/1846586095.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m<__array_function__ internals>\u001b[0m in \u001b[0;36mmean\u001b[1;34m(*args, **kwargs)\u001b[0m\n",
+      "\u001b[1;31mTypeError\u001b[0m: _mean_dispatcher() missing 1 required positional argument: 'a'"
+     ]
+    }
+   ],
+   "source": [
+    "np.mean(axis=(-2,-1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "id": "707006cf-5f64-47b1-9c9c-a029ae2a0829",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'tuple' object has no attribute 'mean'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/1029813306.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m3\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m-\u001b[0m\u001b[1;36m4\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'mean'"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(-3, -4))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 140,
+   "id": "a0950303-d639-432f-b78d-43b24677d5aa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=np.array([5, 6, 7, 10])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 141,
+   "id": "e7aabfa2-21bc-4219-ae30-853690a71702",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AxisError",
+     "evalue": "axis -2 is out of bounds for array of dimension 1",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAxisError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/161499844.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m-\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_mean\u001b[1;34m(a, axis, dtype, out, keepdims, where)\u001b[0m\n\u001b[0;32m    164\u001b[0m     \u001b[0mis_float16_result\u001b[0m \u001b[1;33m=\u001b[0m \u001b[1;32mFalse\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    165\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m--> 166\u001b[1;33m     \u001b[0mrcount\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0m_count_reduce_items\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0marr\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mkeepdims\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mkeepdims\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mwhere\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mwhere\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m    167\u001b[0m     \u001b[1;32mif\u001b[0m \u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m \u001b[1;32mif\u001b[0m \u001b[0mwhere\u001b[0m \u001b[1;32mis\u001b[0m \u001b[1;32mTrue\u001b[0m \u001b[1;32melse\u001b[0m \u001b[0mumr_any\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;32mNone\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    168\u001b[0m         \u001b[0mwarnings\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mwarn\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"Mean of empty slice.\"\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mRuntimeWarning\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mstacklevel\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_count_reduce_items\u001b[1;34m(arr, axis, keepdims, where)\u001b[0m\n\u001b[0;32m     73\u001b[0m         \u001b[0mitems\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mnt\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mintp\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     74\u001b[0m         \u001b[1;32mfor\u001b[0m \u001b[0max\u001b[0m \u001b[1;32min\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m---> 75\u001b[1;33m             \u001b[0mitems\u001b[0m \u001b[1;33m*=\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mshape\u001b[0m\u001b[1;33m[\u001b[0m\u001b[0mmu\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mnormalize_axis_index\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0max\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mndim\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m     76\u001b[0m     \u001b[1;32melse\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     77\u001b[0m         \u001b[1;31m# TODO: Optimize case when `where` is broadcast along a non-reduction\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mAxisError\u001b[0m: axis -2 is out of bounds for array of dimension 1"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(-2, -1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 142,
+   "id": "3022aa47-4cf5-4627-b467-47ece7c35d5d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AxisError",
+     "evalue": "axis 1 is out of bounds for array of dimension 1",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAxisError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3666320354.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_mean\u001b[1;34m(a, axis, dtype, out, keepdims, where)\u001b[0m\n\u001b[0;32m    164\u001b[0m     \u001b[0mis_float16_result\u001b[0m \u001b[1;33m=\u001b[0m \u001b[1;32mFalse\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    165\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m--> 166\u001b[1;33m     \u001b[0mrcount\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0m_count_reduce_items\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0marr\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mkeepdims\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mkeepdims\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mwhere\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mwhere\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m    167\u001b[0m     \u001b[1;32mif\u001b[0m \u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m \u001b[1;32mif\u001b[0m \u001b[0mwhere\u001b[0m \u001b[1;32mis\u001b[0m \u001b[1;32mTrue\u001b[0m \u001b[1;32melse\u001b[0m \u001b[0mumr_any\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;32mNone\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    168\u001b[0m         \u001b[0mwarnings\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mwarn\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"Mean of empty slice.\"\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mRuntimeWarning\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mstacklevel\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_count_reduce_items\u001b[1;34m(arr, axis, keepdims, where)\u001b[0m\n\u001b[0;32m     73\u001b[0m         \u001b[0mitems\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mnt\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mintp\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     74\u001b[0m         \u001b[1;32mfor\u001b[0m \u001b[0max\u001b[0m \u001b[1;32min\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m---> 75\u001b[1;33m             \u001b[0mitems\u001b[0m \u001b[1;33m*=\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mshape\u001b[0m\u001b[1;33m[\u001b[0m\u001b[0mmu\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mnormalize_axis_index\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0max\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mndim\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m     76\u001b[0m     \u001b[1;32melse\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     77\u001b[0m         \u001b[1;31m# TODO: Optimize case when `where` is broadcast along a non-reduction\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mAxisError\u001b[0m: axis 1 is out of bounds for array of dimension 1"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(0, 1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 143,
+   "id": "02d73a27-0a3b-4a40-ba9c-ffc5f906ff85",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 143,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x.min()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 144,
+   "id": "45302fbe-4028-471d-9bfe-639bcc48e5e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "array() takes from 1 to 2 positional arguments but 4 were given",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3368060775.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0marray\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m5\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m6\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m8\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m10\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: array() takes from 1 to 2 positional arguments but 4 were given"
+     ]
+    }
+   ],
+   "source": [
+    "x=np.array(5, 6, 8, 10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 146,
+   "id": "630b54e3-5054-4846-821a-e74e81c60a89",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "array() takes from 1 to 2 positional arguments but 4 were given",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3197272933.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0marray\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;36m5\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m[\u001b[0m\u001b[1;36m6\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m[\u001b[0m\u001b[1;36m8\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m[\u001b[0m\u001b[1;36m10\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: array() takes from 1 to 2 positional arguments but 4 were given"
+     ]
+    }
+   ],
+   "source": [
+    "x=np.array([5], [6], [8], [10])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 147,
+   "id": "1cb10e3d-7ab1-4e49-b77a-0dfc7d4eae0c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=np.arange(2400)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 148,
+   "id": "831795a7-f8cd-4e7b-996d-bb95169db7d2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=np.reshape(a, (5,6,8,10))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 149,
+   "id": "dc1169e2-66a8-4191-b4a8-7398584d7c69",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AxisError",
+     "evalue": "axis -2 is out of bounds for array of dimension 1",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAxisError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/161499844.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m-\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_mean\u001b[1;34m(a, axis, dtype, out, keepdims, where)\u001b[0m\n\u001b[0;32m    164\u001b[0m     \u001b[0mis_float16_result\u001b[0m \u001b[1;33m=\u001b[0m \u001b[1;32mFalse\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    165\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m--> 166\u001b[1;33m     \u001b[0mrcount\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0m_count_reduce_items\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0marr\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mkeepdims\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mkeepdims\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mwhere\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mwhere\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m    167\u001b[0m     \u001b[1;32mif\u001b[0m \u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m \u001b[1;32mif\u001b[0m \u001b[0mwhere\u001b[0m \u001b[1;32mis\u001b[0m \u001b[1;32mTrue\u001b[0m \u001b[1;32melse\u001b[0m \u001b[0mumr_any\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;32mNone\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    168\u001b[0m         \u001b[0mwarnings\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mwarn\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"Mean of empty slice.\"\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mRuntimeWarning\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mstacklevel\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_count_reduce_items\u001b[1;34m(arr, axis, keepdims, where)\u001b[0m\n\u001b[0;32m     73\u001b[0m         \u001b[0mitems\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mnt\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mintp\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     74\u001b[0m         \u001b[1;32mfor\u001b[0m \u001b[0max\u001b[0m \u001b[1;32min\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m---> 75\u001b[1;33m             \u001b[0mitems\u001b[0m \u001b[1;33m*=\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mshape\u001b[0m\u001b[1;33m[\u001b[0m\u001b[0mmu\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mnormalize_axis_index\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0max\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mndim\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m     76\u001b[0m     \u001b[1;32melse\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     77\u001b[0m         \u001b[1;31m# TODO: Optimize case when `where` is broadcast along a non-reduction\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mAxisError\u001b[0m: axis -2 is out of bounds for array of dimension 1"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(-2, -1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 150,
+   "id": "24dee06e-45ca-4c43-a8ce-d21dc8a85634",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AxisError",
+     "evalue": "axis 1 is out of bounds for array of dimension 1",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAxisError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/3666320354.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_mean\u001b[1;34m(a, axis, dtype, out, keepdims, where)\u001b[0m\n\u001b[0;32m    164\u001b[0m     \u001b[0mis_float16_result\u001b[0m \u001b[1;33m=\u001b[0m \u001b[1;32mFalse\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    165\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m--> 166\u001b[1;33m     \u001b[0mrcount\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0m_count_reduce_items\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0marr\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mkeepdims\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mkeepdims\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mwhere\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mwhere\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m    167\u001b[0m     \u001b[1;32mif\u001b[0m \u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m \u001b[1;32mif\u001b[0m \u001b[0mwhere\u001b[0m \u001b[1;32mis\u001b[0m \u001b[1;32mTrue\u001b[0m \u001b[1;32melse\u001b[0m \u001b[0mumr_any\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;32mNone\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    168\u001b[0m         \u001b[0mwarnings\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mwarn\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"Mean of empty slice.\"\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mRuntimeWarning\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mstacklevel\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_count_reduce_items\u001b[1;34m(arr, axis, keepdims, where)\u001b[0m\n\u001b[0;32m     73\u001b[0m         \u001b[0mitems\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mnt\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mintp\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     74\u001b[0m         \u001b[1;32mfor\u001b[0m \u001b[0max\u001b[0m \u001b[1;32min\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m---> 75\u001b[1;33m             \u001b[0mitems\u001b[0m \u001b[1;33m*=\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mshape\u001b[0m\u001b[1;33m[\u001b[0m\u001b[0mmu\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mnormalize_axis_index\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0max\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mndim\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m     76\u001b[0m     \u001b[1;32melse\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     77\u001b[0m         \u001b[1;31m# TODO: Optimize case when `where` is broadcast along a non-reduction\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mAxisError\u001b[0m: axis 1 is out of bounds for array of dimension 1"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(0, 1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 151,
+   "id": "01e8e599-9e50-40ef-a1aa-48e591bc7edb",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AxisError",
+     "evalue": "axis 1 is out of bounds for array of dimension 1",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAxisError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/2114615957.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_mean\u001b[1;34m(a, axis, dtype, out, keepdims, where)\u001b[0m\n\u001b[0;32m    164\u001b[0m     \u001b[0mis_float16_result\u001b[0m \u001b[1;33m=\u001b[0m \u001b[1;32mFalse\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    165\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m--> 166\u001b[1;33m     \u001b[0mrcount\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0m_count_reduce_items\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0marr\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mkeepdims\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mkeepdims\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mwhere\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mwhere\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m    167\u001b[0m     \u001b[1;32mif\u001b[0m \u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m \u001b[1;32mif\u001b[0m \u001b[0mwhere\u001b[0m \u001b[1;32mis\u001b[0m \u001b[1;32mTrue\u001b[0m \u001b[1;32melse\u001b[0m \u001b[0mumr_any\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;32mNone\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    168\u001b[0m         \u001b[0mwarnings\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mwarn\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"Mean of empty slice.\"\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mRuntimeWarning\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mstacklevel\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_count_reduce_items\u001b[1;34m(arr, axis, keepdims, where)\u001b[0m\n\u001b[0;32m     73\u001b[0m         \u001b[0mitems\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mnt\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mintp\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     74\u001b[0m         \u001b[1;32mfor\u001b[0m \u001b[0max\u001b[0m \u001b[1;32min\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m---> 75\u001b[1;33m             \u001b[0mitems\u001b[0m \u001b[1;33m*=\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mshape\u001b[0m\u001b[1;33m[\u001b[0m\u001b[0mmu\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mnormalize_axis_index\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0max\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mndim\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m     76\u001b[0m     \u001b[1;32melse\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     77\u001b[0m         \u001b[1;31m# TODO: Optimize case when `where` is broadcast along a non-reduction\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mAxisError\u001b[0m: axis 1 is out of bounds for array of dimension 1"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(1, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 152,
+   "id": "68d664d4-3e06-4b3c-8ee3-f2a2735f9256",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AxisError",
+     "evalue": "axis -3 is out of bounds for array of dimension 1",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAxisError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/1029813306.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mx\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmean\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m-\u001b[0m\u001b[1;36m3\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m-\u001b[0m\u001b[1;36m4\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_mean\u001b[1;34m(a, axis, dtype, out, keepdims, where)\u001b[0m\n\u001b[0;32m    164\u001b[0m     \u001b[0mis_float16_result\u001b[0m \u001b[1;33m=\u001b[0m \u001b[1;32mFalse\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    165\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m--> 166\u001b[1;33m     \u001b[0mrcount\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0m_count_reduce_items\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0marr\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mkeepdims\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mkeepdims\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mwhere\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mwhere\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m    167\u001b[0m     \u001b[1;32mif\u001b[0m \u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m \u001b[1;32mif\u001b[0m \u001b[0mwhere\u001b[0m \u001b[1;32mis\u001b[0m \u001b[1;32mTrue\u001b[0m \u001b[1;32melse\u001b[0m \u001b[0mumr_any\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mrcount\u001b[0m \u001b[1;33m==\u001b[0m \u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;32mNone\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m    168\u001b[0m         \u001b[0mwarnings\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mwarn\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"Mean of empty slice.\"\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mRuntimeWarning\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mstacklevel\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;36m2\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\_methods.py\u001b[0m in \u001b[0;36m_count_reduce_items\u001b[1;34m(arr, axis, keepdims, where)\u001b[0m\n\u001b[0;32m     73\u001b[0m         \u001b[0mitems\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mnt\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mintp\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     74\u001b[0m         \u001b[1;32mfor\u001b[0m \u001b[0max\u001b[0m \u001b[1;32min\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m---> 75\u001b[1;33m             \u001b[0mitems\u001b[0m \u001b[1;33m*=\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mshape\u001b[0m\u001b[1;33m[\u001b[0m\u001b[0mmu\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mnormalize_axis_index\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0max\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0marr\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mndim\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m     76\u001b[0m     \u001b[1;32melse\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     77\u001b[0m         \u001b[1;31m# TODO: Optimize case when `where` is broadcast along a non-reduction\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mAxisError\u001b[0m: axis -3 is out of bounds for array of dimension 1"
+     ]
+    }
+   ],
+   "source": [
+    "x.mean(axis=(-3, -4))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 153,
+   "id": "29ecab0c-5bf5-45be-bd7a-f0fa011cb142",
+   "metadata": {
+    "collapsed": true,
+    "jupyter": {
+     "outputs_hidden": true
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "ename": "AxisError",
+     "evalue": "axis 1 is out of bounds for array of dimension 1",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mAxisError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp/ipykernel_46824/1142108869.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mnp\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0msum\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mx\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m0\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;36m1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;32m<__array_function__ internals>\u001b[0m in \u001b[0;36msum\u001b[1;34m(*args, **kwargs)\u001b[0m\n",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\fromnumeric.py\u001b[0m in \u001b[0;36msum\u001b[1;34m(a, axis, dtype, out, keepdims, initial, where)\u001b[0m\n\u001b[0;32m   2245\u001b[0m         \u001b[1;32mreturn\u001b[0m \u001b[0mres\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m   2246\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m-> 2247\u001b[1;33m     return _wrapreduction(a, np.add, 'sum', axis, dtype, out, keepdims=keepdims,\n\u001b[0m\u001b[0;32m   2248\u001b[0m                           initial=initial, where=where)\n\u001b[0;32m   2249\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;32m~\\anaconda3\\lib\\site-packages\\numpy\\core\\fromnumeric.py\u001b[0m in \u001b[0;36m_wrapreduction\u001b[1;34m(obj, ufunc, method, axis, dtype, out, **kwargs)\u001b[0m\n\u001b[0;32m     85\u001b[0m                 \u001b[1;32mreturn\u001b[0m \u001b[0mreduction\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0maxis\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mout\u001b[0m\u001b[1;33m=\u001b[0m\u001b[0mout\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m**\u001b[0m\u001b[0mpasskwargs\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     86\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m---> 87\u001b[1;33m     \u001b[1;32mreturn\u001b[0m \u001b[0mufunc\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mreduce\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mobj\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0maxis\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mdtype\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mout\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;33m**\u001b[0m\u001b[0mpasskwargs\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m     88\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m     89\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mAxisError\u001b[0m: axis 1 is out of bounds for array of dimension 1"
+     ]
+    }
+   ],
+   "source": [
+    "np.sum(x, axis=(0, 1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 154,
+   "id": "72401f3a-d11b-4ae5-9c96-4f897eab342a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[ 5  6  7 10]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bf8c852b-1dbf-4e62-8597-aafdd7aaebd4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
